@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="316" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,7 +422,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pG2elmJx4eleB8zLdiAz-1" value="MESSAGE_CAM_OPEN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kZxHA_pf750H8YKeiTvr-2">
+        <mxCell id="pG2elmJx4eleB8zLdiAz-1" value="start_camera_mes&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sage&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kZxHA_pf750H8YKeiTvr-2">
           <mxGeometry x="-0.6827" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -457,7 +457,7 @@
             <mxPoint x="220.33333333333337" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-1" value="start_camera_ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wxzRxISRLsti8m10vdO-1">
+        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-1" value="start_camera_error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5wxzRxISRLsti8m10vdO-1">
           <mxGeometry x="0.1123" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -467,11 +467,16 @@
             <mxPoint x="100" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nU3-R7wXkz8FdxmlpkfC-1" value="start_camera_ok" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Io8g2NXl2fPNwqm7GZZ2-3">
+          <mxGeometry x="-0.2689" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="MESSAGE_CAM_OPEN" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="250" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5wxzRxISRLsti8m10vdO-2" value="start_cam_error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="340" width="120" height="30" as="geometry" />
+        <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="MESSAGE_CAM_IMAGE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="410" width="160" height="30" as="geometry" />
