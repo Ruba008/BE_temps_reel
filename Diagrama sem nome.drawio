@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="765" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -442,7 +442,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="75" y="95" />
+              <mxPoint x="-20" y="95" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -516,8 +516,19 @@
         <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="340" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NjUCkCwkDPL4sWiv1UB7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="NjUCkCwkDPL4sWiv1UB7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130.52941176470586" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="620" />
+              <mxPoint x="130" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-7" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;MESSAGE_CAM_IMAGE&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NjUCkCwkDPL4sWiv1UB7-4">
+          <mxGeometry x="-0.5575" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="Img Camera::Grabs()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="400" width="140" height="40" as="geometry" />
@@ -550,8 +561,14 @@
         <mxCell id="xul7YuGUbuwQQDHrDPXp-3" value="Temp = 100ms&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vFvfSF1MBAHRT8aUXglo-3" vertex="1">
           <mxGeometry y="40" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zXRXJ2jb219V2S9CmhCz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esnvyzO3X5pjBy9MWFIF-2" target="zXRXJ2jb219V2S9CmhCz-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zXRXJ2jb219V2S9CmhCz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esnvyzO3X5pjBy9MWFIF-2" target="NjUCkCwkDPL4sWiv1UB7-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5" y="429.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="520" />
+              <mxPoint x="92" y="520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zXRXJ2jb219V2S9CmhCz-6" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zXRXJ2jb219V2S9CmhCz-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0643" relative="1" as="geometry">
@@ -559,15 +576,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="esnvyzO3X5pjBy9MWFIF-2" value="Camera::Close()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="240" width="150" height="30" as="geometry" />
+          <mxGeometry x="-95.5" y="250" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NjUCkCwkDPL4sWiv1UB7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aja9xeGfsKLRZXSmnxHi-1">
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="520" as="targetPoint" />
+            <mxPoint x="130" y="520" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Aja9xeGfsKLRZXSmnxHi-1" value="ComMonitor::Write&lt;br&gt;(MESSAGE_CAM_IMAGE)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="490" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xul7YuGUbuwQQDHrDPXp-2" target="Io8g2NXl2fPNwqm7GZZ2-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -577,9 +592,6 @@
             <mxPoint x="15" y="44" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zXRXJ2jb219V2S9CmhCz-4" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="310" width="150" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="pGCJNcIeoTNDRF5O_pBJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ogHcom8yuUZJnR6IKgi2-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="659.7575757575758" y="280" as="targetPoint" />
@@ -588,11 +600,6 @@
         <mxCell id="pGCJNcIeoTNDRF5O_pBJ-2" value="throw std::runtime_error if it fails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pGCJNcIeoTNDRF5O_pBJ-1" vertex="1" connectable="0">
           <mxGeometry x="-0.1611" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-NRA4v2Gz3xjFYGFXXvN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ogHcom8yuUZJnR6IKgi2-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ogHcom8yuUZJnR6IKgi2-2" value="int ComRobot::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -615,8 +622,25 @@
         <mxCell id="-NRA4v2Gz3xjFYGFXXvN-1" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="280" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-NRA4v2Gz3xjFYGFXXvN-5" value="int ComRobot::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="280" width="160" height="30" as="geometry" />
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-5" value="ComMonitor::Write" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54.5" y="680" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y6D3YM6_qOi0-MyZvz09-1" target="ogHcom8yuUZJnR6IKgi2-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="95" />
+            </Array>
+            <mxPoint x="740" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-9" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Robot start with watchdog&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NjUCkCwkDPL4sWiv1UB7-8">
+          <mxGeometry x="-0.4005" relative="1" as="geometry">
+            <mxPoint x="39" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-11" value="&lt;div&gt;&quot;Empty&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Log&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Acknowledge]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Not Acknowledge]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command timeout]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command unknown]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command error]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Communication error]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Monitor connection lost&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Open serial com&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Close serial com&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Open camera&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Close camera&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Ask for arena&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Arena confirmed&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Arena infirmed&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Compute position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Stop compute position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Image&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot ping&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot reset&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot start with watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot start without watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot reload watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot move&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot turn&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go forward&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go backward&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go left&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go right&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot stop&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot poweroff&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot get battery&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot battery level&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot get state&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot current state&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot state [Not busy]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot state [Busy]&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="-252" width="210" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
