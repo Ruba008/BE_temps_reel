@@ -410,15 +410,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="1149" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="657" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kZxHA_pf750H8YKeiTvr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y6D3YM6_qOi0-MyZvz09-1" target="kZxHA_pf750H8YKeiTvr-1" edge="1">
+        <mxCell id="kZxHA_pf750H8YKeiTvr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="y6D3YM6_qOi0-MyZvz09-1" target="kZxHA_pf750H8YKeiTvr-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="220" />
-              <mxPoint x="270" y="220" />
+              <mxPoint x="231" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -439,7 +439,7 @@
         </mxCell>
         <mxCell id="esnvyzO3X5pjBy9MWFIF-1" value="disconnect_camera_message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lS7XY6ZAIUAbCWe9kSBm-1" vertex="1" connectable="0">
           <mxGeometry x="0.2675" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y6D3YM6_qOi0-MyZvz09-1" value="ReceiveFromMonTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -462,14 +462,18 @@
             <mxPoint y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5wxzRxISRLsti8m10vdO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kZxHA_pf750H8YKeiTvr-1" edge="1">
+        <mxCell id="5wxzRxISRLsti8m10vdO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZxHA_pf750H8YKeiTvr-1" edge="1" target="5wxzRxISRLsti8m10vdO-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280.33333333333337" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="350" />
+              <mxPoint x="325" y="350" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-1" value="if Camera::IsOpen() == false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5wxzRxISRLsti8m10vdO-1" vertex="1" connectable="0">
           <mxGeometry x="0.1123" y="-1" relative="1" as="geometry">
-            <mxPoint y="-9" as="offset" />
+            <mxPoint y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZxHA_pf750H8YKeiTvr-1" target="Io8g2NXl2fPNwqm7GZZ2-4" edge="1">
@@ -479,20 +483,20 @@
         </mxCell>
         <mxCell id="nU3-R7wXkz8FdxmlpkfC-1" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Io8g2NXl2fPNwqm7GZZ2-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2689" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-7" y="78" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="Camera::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="270" width="160" height="30" as="geometry" />
+          <mxGeometry x="191" y="250" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="360" width="150" height="50" as="geometry" />
+          <mxGeometry x="250" y="370" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="Camera::Grabs()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="430" width="101" height="20" as="geometry" />
+          <mxGeometry x="90" y="400" width="101" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-2" target="i5j1ln-Goa6cHaO1j1Iv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -509,7 +513,7 @@
           <mxGeometry x="405" y="310" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vFvfSF1MBAHRT8aUXglo-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="180" y="530" width="110" height="70" as="geometry" />
+          <mxGeometry x="130" y="500" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xul7YuGUbuwQQDHrDPXp-2" value="" style="shape=collate;whiteSpace=wrap;html=1;" parent="vFvfSF1MBAHRT8aUXglo-3" vertex="1">
           <mxGeometry x="40" width="30" height="40" as="geometry" />
@@ -517,27 +521,38 @@
         <mxCell id="xul7YuGUbuwQQDHrDPXp-3" value="Temp = 100ms&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vFvfSF1MBAHRT8aUXglo-3" vertex="1">
           <mxGeometry y="40" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="zXRXJ2jb219V2S9CmhCz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="esnvyzO3X5pjBy9MWFIF-2" target="zXRXJ2jb219V2S9CmhCz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zXRXJ2jb219V2S9CmhCz-6" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zXRXJ2jb219V2S9CmhCz-5">
+          <mxGeometry x="-0.0643" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="esnvyzO3X5pjBy9MWFIF-2" value="Camera::Close()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="360" width="150" height="30" as="geometry" />
+          <mxGeometry y="240" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Aja9xeGfsKLRZXSmnxHi-1" target="xul7YuGUbuwQQDHrDPXp-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="510" />
-              <mxPoint x="235" y="510" />
+              <mxPoint x="120" y="480" />
+              <mxPoint x="185" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-1" value="MESSAGE_CAM_IMAGE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="480" width="141" height="20" as="geometry" />
+          <mxGeometry x="50" y="450" width="141" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xul7YuGUbuwQQDHrDPXp-2" target="Io8g2NXl2fPNwqm7GZZ2-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="90_wSU6y8R7z717_R-cN-4" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Aja9xeGfsKLRZXSmnxHi-5">
+        <mxCell id="90_wSU6y8R7z717_R-cN-4" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Aja9xeGfsKLRZXSmnxHi-5" vertex="1" connectable="0">
           <mxGeometry x="0.3488" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zXRXJ2jb219V2S9CmhCz-4" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="310" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
