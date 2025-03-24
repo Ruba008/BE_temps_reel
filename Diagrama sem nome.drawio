@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="1035" dy="1611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="1477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,17 +510,17 @@
             <mxPoint x="-7" y="78" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="bool Camera::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="Camera::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="191" y="250" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="340" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Aja9xeGfsKLRZXSmnxHi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1" edge="1">
+        <mxCell id="NjUCkCwkDPL4sWiv1UB7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="Img Camera::Grabs()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="400" width="121" height="20" as="geometry" />
+          <mxGeometry x="60" y="400" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-2" target="i5j1ln-Goa6cHaO1j1Iv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -558,7 +558,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="esnvyzO3X5pjBy9MWFIF-2" value="void Camera::Close()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="esnvyzO3X5pjBy9MWFIF-2" value="Camera::Close()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="240" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NjUCkCwkDPL4sWiv1UB7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aja9xeGfsKLRZXSmnxHi-1">
@@ -566,8 +566,8 @@
             <mxPoint x="260" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aja9xeGfsKLRZXSmnxHi-1" value="MESSAGE_CAM_IMAGE" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="510" width="141" height="20" as="geometry" />
+        <mxCell id="Aja9xeGfsKLRZXSmnxHi-1" value="ComMonitor::Write&lt;br&gt;(MESSAGE_CAM_IMAGE)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="55" y="490" width="151" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xul7YuGUbuwQQDHrDPXp-2" target="Io8g2NXl2fPNwqm7GZZ2-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
