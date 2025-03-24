@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="1622" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -445,6 +445,20 @@
         <mxCell id="esnvyzO3X5pjBy9MWFIF-1" value="disconnect_camera_message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lS7XY6ZAIUAbCWe9kSBm-1" vertex="1" connectable="0">
           <mxGeometry x="0.2675" y="-2" relative="1" as="geometry">
             <mxPoint x="2" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogHcom8yuUZJnR6IKgi2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y6D3YM6_qOi0-MyZvz09-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="155" />
+              <mxPoint x="620" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WQKywz1C36XGGxapEoso-1" value="start_robot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ogHcom8yuUZJnR6IKgi2-1">
+          <mxGeometry x="-0.4005" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y6D3YM6_qOi0-MyZvz09-1" value="ReceiveFromMonTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -511,16 +525,6 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Emi-V2XSFdlNBGHmtcL4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-2" target="Emi-V2XSFdlNBGHmtcL4-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="600" y="240" />
-              <mxPoint x="600" y="310" />
-              <mxPoint x="580" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-2" value="int ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="210" width="160" height="30" as="geometry" />
         </mxCell>
@@ -569,8 +573,8 @@
         <mxCell id="zXRXJ2jb219V2S9CmhCz-4" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="310" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Emi-V2XSFdlNBGHmtcL4-2" value="int&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="350" width="160" height="50" as="geometry" />
+        <mxCell id="ogHcom8yuUZJnR6IKgi2-2" value="int ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
