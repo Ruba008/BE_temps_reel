@@ -514,8 +514,8 @@
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-2" value="int ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="210" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-3" value="start_server" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="310" width="160" height="30" as="geometry" />
+        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-3" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="310" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vFvfSF1MBAHRT8aUXglo-3" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="130" y="500" width="110" height="70" as="geometry" />
