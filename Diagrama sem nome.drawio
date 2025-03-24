@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="412" dy="224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,7 +476,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-1" value="if Camera::IsOpen() == false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5wxzRxISRLsti8m10vdO-1" vertex="1" connectable="0">
+        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-1" value="return False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5wxzRxISRLsti8m10vdO-1" vertex="1" connectable="0">
           <mxGeometry x="0.1123" y="-1" relative="1" as="geometry">
             <mxPoint y="-28" as="offset" />
           </mxGeometry>
@@ -486,12 +486,12 @@
             <mxPoint x="160" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nU3-R7wXkz8FdxmlpkfC-1" value="if Camera::IsOpen() == true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Io8g2NXl2fPNwqm7GZZ2-3" vertex="1" connectable="0">
+        <mxCell id="nU3-R7wXkz8FdxmlpkfC-1" value="return True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Io8g2NXl2fPNwqm7GZZ2-3" vertex="1" connectable="0">
           <mxGeometry x="-0.2689" y="1" relative="1" as="geometry">
             <mxPoint x="-7" y="78" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="Camera::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kZxHA_pf750H8YKeiTvr-1" value="bool Camera::Open()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="191" y="250" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -500,18 +500,18 @@
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="Camera::Grabs()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="400" width="101" height="20" as="geometry" />
+        <mxCell id="Io8g2NXl2fPNwqm7GZZ2-4" value="Img Camera::Grabs()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="400" width="121" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-2" target="i5j1ln-Goa6cHaO1j1Iv-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-5" value="std::runtime_error if it fails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i5j1ln-Goa6cHaO1j1Iv-4" vertex="1" connectable="0">
+        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-5" value="throw std::runtime_error if it fails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="i5j1ln-Goa6cHaO1j1Iv-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0571" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-2" value="ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i5j1ln-Goa6cHaO1j1Iv-2" value="int ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-3" value="start_server" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
