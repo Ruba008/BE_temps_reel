@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="836" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -432,7 +432,7 @@
             <mxPoint x="490" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JE371FhlX6mmr59_v6xB-1" value="start_start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i5j1ln-Goa6cHaO1j1Iv-1">
+        <mxCell id="JE371FhlX6mmr59_v6xB-1" value="start_monitor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i5j1ln-Goa6cHaO1j1Iv-1">
           <mxGeometry x="-0.2121" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -471,8 +471,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280.33333333333337" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="350" />
-              <mxPoint x="325" y="350" />
+              <mxPoint x="311" y="340" />
+              <mxPoint x="315" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -495,7 +495,7 @@
           <mxGeometry x="191" y="250" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5wxzRxISRLsti8m10vdO-2" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="370" width="150" height="50" as="geometry" />
+          <mxGeometry x="240" y="370" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Aja9xeGfsKLRZXSmnxHi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="Aja9xeGfsKLRZXSmnxHi-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -511,11 +511,21 @@
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Emi-V2XSFdlNBGHmtcL4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-2" target="Emi-V2XSFdlNBGHmtcL4-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="240" />
+              <mxPoint x="600" y="310" />
+              <mxPoint x="580" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-2" value="int ComMonitor::Open(int port)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="i5j1ln-Goa6cHaO1j1Iv-3" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="310" width="160" height="50" as="geometry" />
+          <mxGeometry x="405" y="280" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vFvfSF1MBAHRT8aUXglo-3" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="130" y="500" width="110" height="70" as="geometry" />
@@ -558,6 +568,9 @@
         </mxCell>
         <mxCell id="zXRXJ2jb219V2S9CmhCz-4" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Communication error]&quot;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="310" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Emi-V2XSFdlNBGHmtcL4-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="350" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
