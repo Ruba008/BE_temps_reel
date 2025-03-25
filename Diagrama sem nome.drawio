@@ -410,7 +410,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WL0619789eDAew6Nua0T" name="Page-2">
-    <mxGraphModel dx="1254" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,6 +464,14 @@
         <mxCell id="WQKywz1C36XGGxapEoso-1" value="start_robot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ogHcom8yuUZJnR6IKgi2-1" vertex="1" connectable="0">
           <mxGeometry x="-0.4005" relative="1" as="geometry">
             <mxPoint x="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mO8dEmMrO_b3wofBwNUO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y6D3YM6_qOi0-MyZvz09-1" target="mO8dEmMrO_b3wofBwNUO-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970.0000000000002" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="130" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="y6D3YM6_qOi0-MyZvz09-1" value="ReceiveFromMonTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -535,7 +543,7 @@
             <mxPoint x="580.4999999999998" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-3" target="NjUCkCwkDPL4sWiv1UB7-5">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="i5j1ln-Goa6cHaO1j1Iv-3" target="NjUCkCwkDPL4sWiv1UB7-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="700" as="targetPoint" />
             <Array as="points">
@@ -592,7 +600,7 @@
         <mxCell id="zIXVsKcFNtRoUcgVctRb-2" value="void Camera::Close()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500.5" y="490" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-NRA4v2Gz3xjFYGFXXvN-1" target="NjUCkCwkDPL4sWiv1UB7-5">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="-NRA4v2Gz3xjFYGFXXvN-1" target="NjUCkCwkDPL4sWiv1UB7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-NRA4v2Gz3xjFYGFXXvN-1" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Answer [Command error&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]&quot;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -618,31 +626,34 @@
         <mxCell id="NjUCkCwkDPL4sWiv1UB7-11" value="&lt;div&gt;&quot;Empty&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Log&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Acknowledge]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Not Acknowledge]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command timeout]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command unknown]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Command error]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Answer [Communication error]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Monitor connection lost&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Open serial com&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Close serial com&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Open camera&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Close camera&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Ask for arena&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Arena confirmed&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Arena infirmed&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Compute position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Stop compute position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Position&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Image&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot ping&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot reset&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot start with watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot start without watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot reload watchdog&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot move&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot turn&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go forward&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go backward&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go left&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot go right&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot stop&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot poweroff&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot get battery&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot battery level&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot get state&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot current state&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot state [Not busy]&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;Robot state [Busy]&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="850" y="480" width="210" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YN5Urqkw2nbmTgO1iHrs-3" target="xul7YuGUbuwQQDHrDPXp-2">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YN5Urqkw2nbmTgO1iHrs-3" target="xul7YuGUbuwQQDHrDPXp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YN5Urqkw2nbmTgO1iHrs-3" target="NjUCkCwkDPL4sWiv1UB7-5">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YN5Urqkw2nbmTgO1iHrs-3" target="NjUCkCwkDPL4sWiv1UB7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-3" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Image&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-3" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Image&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="147.5" y="510" width="152.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="YN5Urqkw2nbmTgO1iHrs-3">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Io8g2NXl2fPNwqm7GZZ2-4" target="YN5Urqkw2nbmTgO1iHrs-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YN5Urqkw2nbmTgO1iHrs-12" target="NjUCkCwkDPL4sWiv1UB7-5">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YN5Urqkw2nbmTgO1iHrs-12" target="NjUCkCwkDPL4sWiv1UB7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-16" value="if Camera::IsOpen() == false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YN5Urqkw2nbmTgO1iHrs-15">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-16" value="if Camera::IsOpen() == false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YN5Urqkw2nbmTgO1iHrs-15" vertex="1" connectable="0">
           <mxGeometry x="-0.5817" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-12" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Image&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-12" value="MESSAGE_ID_STRING[]=&lt;div&gt;&quot;Image&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="360" width="152.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YN5Urqkw2nbmTgO1iHrs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.479;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="esnvyzO3X5pjBy9MWFIF-2" target="YN5Urqkw2nbmTgO1iHrs-12">
+        <mxCell id="YN5Urqkw2nbmTgO1iHrs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.479;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="esnvyzO3X5pjBy9MWFIF-2" target="YN5Urqkw2nbmTgO1iHrs-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mO8dEmMrO_b3wofBwNUO-2" value="int ComRobot::Open()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="260" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
