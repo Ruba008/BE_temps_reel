@@ -926,6 +926,14 @@
             <mxPoint x="22" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-4" target="OUVjaVjFAWxYSw7tJzOT-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-61" value="find arena" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-60">
+          <mxGeometry x="-0.1975" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-4" value="&lt;font face=&quot;Georgia&quot;&gt;Camera Grab&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="350" width="120" height="20" as="geometry" />
         </mxCell>
@@ -1031,6 +1039,9 @@
           <mxGeometry x="-0.0111" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-59" value="&lt;font face=&quot;Georgia&quot;&gt;Arena&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
