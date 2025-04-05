@@ -927,6 +927,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-24" target="OUVjaVjFAWxYSw7tJzOT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-32" value="position message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-31">
+          <mxGeometry x="-0.5398" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-24" value="Robot Position" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="430" y="70" width="120" height="20" as="geometry" />
         </mxCell>
