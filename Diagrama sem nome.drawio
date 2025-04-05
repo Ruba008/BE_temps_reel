@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="395" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -742,8 +742,16 @@
         <mxCell id="V6RKFuo8piakv3enidHD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V6RKFuo8piakv3enidHD-1" target="V6RKFuo8piakv3enidHD-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V6RKFuo8piakv3enidHD-23" value="start robot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V6RKFuo8piakv3enidHD-22">
+        <mxCell id="V6RKFuo8piakv3enidHD-23" value="start robot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" vertex="1" connectable="0" parent="V6RKFuo8piakv3enidHD-22">
           <mxGeometry x="-0.136" y="-3" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6RKFuo8piakv3enidHD-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="V6RKFuo8piakv3enidHD-1" target="V6RKFuo8piakv3enidHD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V6RKFuo8piakv3enidHD-27" value="move" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" vertex="1" connectable="0" parent="V6RKFuo8piakv3enidHD-26">
+          <mxGeometry x="-0.2331" y="-2" relative="1" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -768,6 +776,9 @@
         </mxCell>
         <mxCell id="V6RKFuo8piakv3enidHD-21" value="&lt;font face=&quot;Georgia&quot;&gt;Robot Start (without wd)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="205" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V6RKFuo8piakv3enidHD-25" value="Robot Movement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
