@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="577" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="477" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -684,8 +684,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V6RKFuo8piakv3enidHD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDpJxwZc1btfiSqD2Gr8-12" target="V6RKFuo8piakv3enidHD-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="V6RKFuo8piakv3enidHD-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDpJxwZc1btfiSqD2Gr8-12" target="V6RKFuo8piakv3enidHD-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V6RKFuo8piakv3enidHD-5" value="&lt;font face=&quot;Georgia&quot;&gt;connexion ok&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V6RKFuo8piakv3enidHD-4">
+          <mxGeometry x="-0.4897" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="yDpJxwZc1btfiSqD2Gr8-12" value="Monitor Connexion Request" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="120" y="100" width="120" height="30" as="geometry" />
@@ -695,7 +705,7 @@
             <mxPoint x="150" y="60" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x9vCs8GY8wE2-3rDT4mH-7" value="open socket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x9vCs8GY8wE2-3rDT4mH-6">
+        <mxCell id="x9vCs8GY8wE2-3rDT4mH-7" value="&lt;font face=&quot;Georgia&quot;&gt;open socket&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="x9vCs8GY8wE2-3rDT4mH-6">
           <mxGeometry x="-0.2953" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
