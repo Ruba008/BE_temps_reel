@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="865" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="532" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -779,6 +779,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V6RKFuo8piakv3enidHD-17" target="OUVjaVjFAWxYSw7tJzOT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-8" value="&lt;font face=&quot;Georgia&quot;&gt;camera opened&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-5">
+          <mxGeometry x="-0.2436" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V6RKFuo8piakv3enidHD-17" value="&lt;font face=&quot;Georgia&quot;&gt;Open Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="290" width="120" height="20" as="geometry" />
         </mxCell>
@@ -834,6 +842,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_GpLk9AusAjR51m3TJlV-10" target="OUVjaVjFAWxYSw7tJzOT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-13" value="message battery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-11">
+          <mxGeometry x="-0.3385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_GpLk9AusAjR51m3TJlV-10" value="Get Robot Battery" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="430" y="290" width="120" height="20" as="geometry" />
         </mxCell>
@@ -847,6 +863,35 @@
           <mxGeometry x="0.2359" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-4" target="OUVjaVjFAWxYSw7tJzOT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-14" value="&lt;font face=&quot;Georgia&quot;&gt;message image&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-10">
+          <mxGeometry x="-0.1143" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-4" target="OUVjaVjFAWxYSw7tJzOT-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="360" />
+              <mxPoint x="230" y="390" />
+              <mxPoint x="310" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-16" value="&lt;font face=&quot;Georgia&quot;&gt;T = 100 ms&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OUVjaVjFAWxYSw7tJzOT-15">
+          <mxGeometry x="-0.09" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-4" value="&lt;font face=&quot;Georgia&quot;&gt;Camera Grab&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-9" value="&lt;font face=&quot;Georgia&quot;&gt;Send Message to Monitor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="205" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
