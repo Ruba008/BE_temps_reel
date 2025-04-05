@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="989" dy="1064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="577" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,11 +774,42 @@
         <mxCell id="V6RKFuo8piakv3enidHD-17" value="&lt;font face=&quot;Georgia&quot;&gt;Open Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="300" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-4" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;elbow=horizontal;" edge="1" parent="1" source="V6RKFuo8piakv3enidHD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="212.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-5" value="&lt;font face=&quot;Georgia&quot;&gt;request&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_GpLk9AusAjR51m3TJlV-4">
+          <mxGeometry x="-0.1507" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="V6RKFuo8piakv3enidHD-21" value="&lt;font face=&quot;Georgia&quot;&gt;Robot Start (without wd)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="205" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V6RKFuo8piakv3enidHD-25" value="Robot Movement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" vertex="1" parent="1">
           <mxGeometry x="430" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="V6RKFuo8piakv3enidHD-21" target="V6RKFuo8piakv3enidHD-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="210" as="sourcePoint" />
+            <mxPoint x="525" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-3" value="&lt;font face=&quot;Georgia&quot;&gt;robot started&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_GpLk9AusAjR51m3TJlV-2">
+          <mxGeometry x="0.0212" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-8" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;elbow=horizontal;" edge="1" parent="1" target="V6RKFuo8piakv3enidHD-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GpLk9AusAjR51m3TJlV-9" value="&lt;font face=&quot;Georgia&quot;&gt;response&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_GpLk9AusAjR51m3TJlV-8">
+          <mxGeometry x="-0.1813" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
