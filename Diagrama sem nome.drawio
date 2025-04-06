@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="1308" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="763" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -884,7 +884,7 @@
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_GpLk9AusAjR51m3TJlV-10" target="OUVjaVjFAWxYSw7tJzOT-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUVjaVjFAWxYSw7tJzOT-13" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" parent="OUVjaVjFAWxYSw7tJzOT-11" vertex="1" connectable="0">
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-13" value="message battery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" parent="OUVjaVjFAWxYSw7tJzOT-11" vertex="1" connectable="0">
           <mxGeometry x="-0.3385" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -950,6 +950,20 @@
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-9" value="&lt;font face=&quot;Georgia&quot;&gt;Send Message to Monitor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="225" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="WARsirP1Jm-n4nm0zMLj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.915;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-17" target="OUVjaVjFAWxYSw7tJzOT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="490" />
+              <mxPoint x="800" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WARsirP1Jm-n4nm0zMLj-5" value="&lt;font face=&quot;Georgia&quot;&gt;message close camera&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WARsirP1Jm-n4nm0zMLj-3">
+          <mxGeometry x="-0.6136" y="1" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-17" value="&lt;font face=&quot;Georgia&quot;&gt;Close Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="310" width="120" height="20" as="geometry" />
         </mxCell>
@@ -971,7 +985,7 @@
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OUVjaVjFAWxYSw7tJzOT-24" target="OUVjaVjFAWxYSw7tJzOT-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OUVjaVjFAWxYSw7tJzOT-32" value="position message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" parent="OUVjaVjFAWxYSw7tJzOT-31" vertex="1" connectable="0">
+        <mxCell id="OUVjaVjFAWxYSw7tJzOT-32" value="message position&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" parent="OUVjaVjFAWxYSw7tJzOT-31" vertex="1" connectable="0">
           <mxGeometry x="-0.5398" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1022,6 +1036,20 @@
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-37" value="Draw Position" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="430" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WARsirP1Jm-n4nm0zMLj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.619;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OUVjaVjFAWxYSw7tJzOT-52" target="OUVjaVjFAWxYSw7tJzOT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="10" />
+              <mxPoint x="764" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WARsirP1Jm-n4nm0zMLj-2" value="&lt;font face=&quot;Georgia&quot;&gt;message stop position&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WARsirP1Jm-n4nm0zMLj-1">
+          <mxGeometry x="-0.1735" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-52" value="Stop Position" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="250" y="30" width="120" height="20" as="geometry" />
