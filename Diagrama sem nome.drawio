@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="763" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="915" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -926,14 +926,6 @@
             <mxPoint x="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OUVjaVjFAWxYSw7tJzOT-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OUVjaVjFAWxYSw7tJzOT-4" target="OUVjaVjFAWxYSw7tJzOT-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OUVjaVjFAWxYSw7tJzOT-61" value="find arena" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;" parent="OUVjaVjFAWxYSw7tJzOT-60" vertex="1" connectable="0">
-          <mxGeometry x="-0.1975" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-4" value="&lt;font face=&quot;Georgia&quot;&gt;Camera Grab&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="370" width="120" height="20" as="geometry" />
         </mxCell>
@@ -954,7 +946,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="150" y="490" />
+              <mxPoint x="110" y="330" />
+              <mxPoint x="110" y="490" />
               <mxPoint x="800" y="490" />
             </Array>
           </mxGeometry>
@@ -965,7 +958,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-17" value="&lt;font face=&quot;Georgia&quot;&gt;Close Camera&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="310" width="120" height="20" as="geometry" />
+          <mxGeometry x="70" y="310" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="OUVjaVjFAWxYSw7tJzOT-17" target="V6RKFuo8piakv3enidHD-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
