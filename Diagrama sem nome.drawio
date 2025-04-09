@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="768" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1612" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -948,7 +948,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-4" value="&lt;font face=&quot;Georgia&quot;&gt;Camera Grab&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="530" width="120" height="20" as="geometry" />
+          <mxGeometry x="250" y="500" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OUVjaVjFAWxYSw7tJzOT-42" style="edgeStyle=isometricEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="OUVjaVjFAWxYSw7tJzOT-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1111,7 +1111,7 @@
         </mxCell>
         <mxCell id="WARsirP1Jm-n4nm0zMLj-17" value="&lt;font face=&quot;Georgia&quot; style=&quot;color: rgb(153, 0, 77);&quot;&gt;camera opened&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WARsirP1Jm-n4nm0zMLj-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3608" y="-7" relative="1" as="geometry">
-            <mxPoint x="-16" y="3" as="offset" />
+            <mxPoint x="1" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
