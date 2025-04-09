@@ -659,7 +659,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dKcgN2Owr-9TgumOhbb-" name="Page-3">
-    <mxGraphModel dx="1612" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
+    <mxGraphModel dx="921" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="500" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -860,16 +860,14 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="731.0400000000001" y="265.6300000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="180" />
-              <mxPoint x="610" y="200" />
-              <mxPoint x="731" y="200" />
+              <mxPoint x="731" y="180" />
             </Array>
             <mxPoint x="570" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WARsirP1Jm-n4nm0zMLj-19" value="&lt;font face=&quot;Georgia&quot;&gt;message&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Georgia&quot;&gt;mouvement&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WARsirP1Jm-n4nm0zMLj-18" vertex="1" connectable="0">
           <mxGeometry x="-0.6171" relative="1" as="geometry">
-            <mxPoint x="80" y="11" as="offset" />
+            <mxPoint x="71" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V6RKFuo8piakv3enidHD-25" value="Robot Movement" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;" parent="1" vertex="1">
@@ -936,9 +934,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="570" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="230" y="510" />
               <mxPoint x="230" y="540" />
-              <mxPoint x="230" y="570" />
-              <mxPoint x="310" y="570" />
+              <mxPoint x="310" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
