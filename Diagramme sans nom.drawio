@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="iRX-Zw3rXRFVKdlmw2_z">
-    <mxGraphModel dx="1086" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2716" dy="2697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TarUu8YEU-N9oZdyonNv-1" value="&lt;font&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(Aperiodic task)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;font&gt;&lt;span style=&quot;font-size: 18px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;th_sendToMon&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;(SendToMonTask,&lt;/span&gt;&lt;/div&gt;&lt;font size=&quot;4&quot;&gt;Priority : 22)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="350" y="-240" width="160" height="160" as="geometry" />
+          <mxGeometry x="355" y="-250" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ayjIRrXQbjti4xCsMXbr-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TarUu8YEU-N9oZdyonNv-5" target="oxgDeU0MrokM4-W492RL-16">
           <mxGeometry relative="1" as="geometry">
