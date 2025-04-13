@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="Page-1" id="iRX-Zw3rXRFVKdlmw2_z">
-    <mxGraphModel dx="905" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1086" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
         </mxCell>
         <mxCell id="ayjIRrXQbjti4xCsMXbr-22" value="MESSAGE_CAM_OPEN&lt;div&gt;MESSAGE_CAM_CLOSE&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ayjIRrXQbjti4xCsMXbr-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint y="25" as="offset" />
+            <mxPoint x="-50" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ayjIRrXQbjti4xCsMXbr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oxgDeU0MrokM4-W492RL-8" target="oxgDeU0MrokM4-W492RL-22">
@@ -303,7 +303,7 @@
         </mxCell>
         <object label="CamEnable" id="TarUu8YEU-N9oZdyonNv-15">
           <mxCell style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.collate;direction=south;rotation=90;" parent="1" vertex="1">
-            <mxGeometry x="490" y="300" width="70" height="40" as="geometry" />
+            <mxGeometry x="495" y="300" width="70" height="40" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="ayjIRrXQbjti4xCsMXbr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TarUu8YEU-N9oZdyonNv-16" target="TarUu8YEU-N9oZdyonNv-6">
@@ -324,7 +324,7 @@
         </mxCell>
         <object label="SaveArena" id="TarUu8YEU-N9oZdyonNv-18">
           <mxCell style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.collate;direction=south;rotation=90;" parent="1" vertex="1">
-            <mxGeometry x="690" y="300" width="70" height="40" as="geometry" />
+            <mxGeometry x="695" y="300" width="70" height="40" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="TarUu8YEU-N9oZdyonNv-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TarUu8YEU-N9oZdyonNv-19" target="-x2ui8f0OP5rvinT5ZCn-53" edge="1">
@@ -340,7 +340,7 @@
         </mxCell>
         <object label="CalculPosRob" id="TarUu8YEU-N9oZdyonNv-20">
           <mxCell style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.collate;direction=south;rotation=90;" parent="1" vertex="1">
-            <mxGeometry x="1020" y="270" width="70" height="40" as="geometry" />
+            <mxGeometry x="1015" y="270" width="70" height="40" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="ayjIRrXQbjti4xCsMXbr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TarUu8YEU-N9oZdyonNv-21" target="oxgDeU0MrokM4-W492RL-7">
