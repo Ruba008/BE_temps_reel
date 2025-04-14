@@ -69,13 +69,7 @@ private:
     Camera * cam;
     list<Position> positionList;
     Position positionRobot;
-    int robotStarted = 0;
     int move = MESSAGE_ROBOT_STOP;
-    int CamEnable = 0;
-    int ComptBatt = 11;
-    int SearchRobotEnable = 0;
-    int SaveArena = 0;
-    int CalculPosRob = 0;
     
     
     /**********************************************************************/
@@ -109,6 +103,16 @@ private:
     RT_SEM sem_openComRobot;
     RT_SEM sem_serverOk;
     RT_SEM sem_startRobot;
+    
+    //Boolean semaphores
+    
+    int robotStarted = 0;        
+    int CamEnable = 0;
+    int SaveArena = 0;
+    int CalculPosRob = 0;
+
+    //Compteur semaphore
+    int ComptBatt = 11;
 
     /**********************************************************************/
     /* Message queues                                                     */
